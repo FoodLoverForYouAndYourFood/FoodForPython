@@ -11,5 +11,5 @@ if a[-1:] in varA:
     print(spisok[0](a))
 if a[-1:] in varB:
     print(spisok[1](a))
-if a[-1:] not in varA and a[:-1] not in varB:
+if a[-1:] not in varA and a[-1:] not in varB:
     print(spisok[2](a))
