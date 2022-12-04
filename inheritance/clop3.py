@@ -28,7 +28,7 @@ class Planet(SpaceObject):
         super().__init__(size)
 
     def all_people(self):
-        n = int(input('Введите количество лет,через которое хотите узнать количество существ на планете:'))
+        n = int(input('Введите количество лет,через которое хотите узнать количество существ на планете:\n' ))
         print(f'Количество существ на планете через', n, 'лет равно', int(self.numcreature) + int(self.numplus) * n)
 
 
