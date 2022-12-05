@@ -28,4 +28,5 @@ class Clop2(Clop1):
         print(f'{self.make_object().forgenius()}, но его отчислят если он не будет учить ООП')
 
 
-Clop2('Давыд').complete()
+david = Clop2("David")
+david.complete()
